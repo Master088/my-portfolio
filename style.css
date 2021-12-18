@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --main-bg-color: #7255e6;
+  --main-text-color: #009d63;
+  --second-text-color: #bbbec5;
+  --second-bg-color: #f3f3f3;
+}
+body {
+  background-color: var(--body-bg);
+  font-family: "Droid Serif", Serif;
+  font-size: 16px;
+  text-align: justify;
+  font-weight: 400;
+  color: #333333;
+  /* height: 100vh; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Patua One", Cursive;
+}
+.menu {
+  background-color: #7255e6;
+  color: rgb(253, 253, 253);
+}
+.active {
+  background-color: #7255e6;
+  color: rgb(253, 253, 253) !important;
+  border-radius: 5px;
+}
+li a {
+  text-decoration: none;
+  color: #020202;
+  font-size: 23px;
+}
+.nav-item {
+  /* width: 110px; */
+  padding: 0px 20px;
+  color: #f3f3f3;
+}
+.main_img {
+  width: 400px;
+}
+.bg-top {
+  background-color: #f5f5f5;
+}
+.main-color {
+  color: #7255e6;
+}
+.btn-main {
+  background-color: #7255e6;
+  border-radius: 35px;
+}
+.img-aboutme {
+  width: 170px;
+  height: 170px;
+}
+.card {
+  border-radius: 10px;
+}
+.project_img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.project_img:hover {
+  transform: scale(1.1);
+  position: relative;
+}
+.project-card {
+  border-bottom: 5px solid #7255e6;
+  min-height: 470px;
+  max-height: 470px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.skills-card {
+  border-bottom: 5px solid #7255e6;
+  min-height: 320px;
+  max-height: 320px;
+  overflow-y: hidden;
+}
+.skils_img {
+  width: 100px;
+  height: 100px;
+}
+.education_img {
+  width: 150px;
+  height: 150px;
+}
+.education-card {
+  border-bottom: 5px solid #7255e6;
+  min-height: 450px;
+  max-height: 450px;
+  overflow-y: hidden;
+  border-radius: 10px;
+}
+.reference-card {
+  border-bottom: 5px solid #7255e6;
+  min-height: 450px;
+  max-height: 450px;
+  overflow-y: hidden;
+  border-radius: 10px;
+}
+.reference_img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.name {
+  display: inline-block;
+  animation: inner-left 2s 1s ease both,
+    text-clip 2s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+.img_main {
+  display: inline-block;
+  animation: text-clip 1s 0s cubic-bezier(0.5, 0, 0.1, 1) both;
+}
+@keyframes inner-left {
+  from {
+    transform: translateX(-25%);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes text-clip {
+  from {
+    clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  }
+  to {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+/* body:active * {
+  animation: none !important;
+} */
+#show {
+  -webkit-animation: fadein 0.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.5s; /* Firefox < 16 */
+  -ms-animation: fadein 0.5s; /* Internet Explorer */
+  -o-animation: fadein 0.5s; /* Opera < 12.1 */
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

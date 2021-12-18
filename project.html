@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif|Patua+One"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container-fluid" id="show">
+      <div class="row bg-top pb-3">
+        <div class="col-6 mt-3">
+          <h2 class="main-color" href="#">My Portfolio</h2>
+        </div>
+        <div class="col-6 d-flex justify-content-end">
+          <nav class="navbar navbar-expand-md d-flex justify-content-end">
+            <!-- Brand -->
+
+            <!-- Toggler/collapsibe Button -->
+            <button
+              class="navbar-toggler menu"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsibleNavbar"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse mt-2" id="collapsibleNavbar">
+              <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="skils.html">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="education.html">Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="reference.html">Reference</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div
+          class="col-md-5 d-flex justify-content-center"
+          id="img_main-section"
+        >
+          <img src="main_img.png" alt="profile" class="img-fluid main_img" />
+        </div>
+        <div class="col-md-5 mt-5" id="name-section">
+          <h5 class="mt-5">Hello I Am</h5>
+          <h1 class="main-color text-center">Jocel Ibarra Duatin</h1>
+          <h5 class="text-center">BSIT Student</h5>
+          <div class="d-flex justify-content-center">
+            <a
+              href="index.html#mobile"
+              class="btn btn-primary btn-main border-0"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5 mb-5">
+        <div class="col-md-12">
+          <h2 class="text-center">Project</h2>
+        </div>
+        <div class="container-fluid mt-3">
+          <div class="row d-flex justify-content-around">
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/capstone_project.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">
+                    Web-based Resource Management System Using QR Codes
+                  </h6>
+                  <p>
+                    This system is used to manage IT-related reading resources
+                    in the IT reading center at CLSU. This features QR codes for
+                    resource transactions, resource location, and organization.
+                    It was built using Django, the Django Rest Framework, HTML,
+                    CSS, Bootstrap, React JS, and Simple JWT Authentication.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 card mx-1 shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/visitors log.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Visitors Log Using QR Codes</h6>
+                  <p>
+                    This system is used to track who comes in and out of the IT
+                    reading center. This is a web-based frontend system for
+                    recording using QR codes, as well as a sub-system for the
+                    Resource Management System. This system was built using
+                    HTML, CSS, Bootstrap, React JS, and React Idle Timer.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 card mx-1 shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/movie reservation.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Movie Reservation</h6>
+                  <p>
+                    Movie Reservation This system is used to make a movie
+                    reservation, including food and beverages. This was built
+                    using HTML, CSS, JavaScript, JQuery, PHP, and Bootstrap.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 card mx-1 shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/covid cases.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">
+                    Web-based Tracking and Monitoring System for Positive and
+                    Suspected Covid-19 Cases
+                  </h6>
+                  <p>
+                    This project is a web-based system that is made to track and
+                    monitor COVID-19 cases. This was built using Django,
+                    Bootstrap, HTML, CSS, JavaScript, and JQuery.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/card_game.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-2">Card Guesing Game</h6>
+                  <p>
+                    This is web-based card matching game that was built using
+                    Django, Bootstrap, HTML, CSS, JavaScript, and JQuery. The
+                    mechanics of the game is that each user will have 120
+                    seconds to pair the cards, and the game is over when the
+                    time run out. The cards are randomized upon request.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/calculator.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Android Calculator</h6>
+                  <p>
+                    This is a basic calculator app that can add, subtract,
+                    multiply, and divide numbers.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/hotel_reservation.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Android Hotel Reservation System</h6>
+                  <p>
+                    This system is used to schedule a hotel reservation and was
+                    built using Android and SQLite.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/instructor_management.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Instructor Management System</h6>
+                  <p>
+                    This project is used to record instructor record together
+                    with thier class schedule. The project was build using Java
+                    language
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/cpu schedueling.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">CPU Process Simulation</h6>
+                  <p>
+                    This project simulate CPU process schedueling such as First
+                    Come First Serve(FCFS), Shortest-Job-First(SJF), Round
+                    Robin(RR), Priority, and Shortest Remaining Time First. The
+                    project was build using c language.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mx-1 card shadow project-card mt-2">
+              <div class="row">
+                <img
+                  src="img/ram_simulation.png"
+                  class="project_img"
+                  alt="project"
+                />
+                <div class="col-md-12">
+                  <h6 class="mt-3">Ram Process Simulation</h6>
+                  <p>
+                    This project simulate RAM process such as First In, First
+                    Out (FIFO) and Least recently used (LRU). The project was
+                    build using c language
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-top text-center py-2">
+      <h6>© 2021 Jocel I. Duatin</h6>
+    </footer>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#name-section").addClass("name");
+        $("#img_main-section").addClass("img_main");
+        setTimeout(function () {
+          $("#name-section").removeClass("name");
+          $("#img_main-section").removeClass("img_main");
+        }, 3000);
+      });
+    </script>
+  </body>
+</html>
